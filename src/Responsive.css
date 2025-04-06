@@ -1,0 +1,334 @@
+/* Header styling  */
+
+@media (max-width: 1280px) {
+	.header {
+		max-width: 1000px;
+		margin-bottom: 2rem;
+	}
+	.body {
+		max-width: 1000px;
+	}
+	.body form {
+		width: 90%;
+	}
+	input {
+		font-size: 18px;
+		padding: 10px 16px;
+		width: 60%;
+	}
+	button {
+		font-size: 18px;
+		padding: 7px 16px;
+		width: 20%;
+	}
+	.show_more_btn {
+		width: 90%;
+		margin-bottom: 2rem;
+	}
+
+	p {
+		font-size: 2rem;
+	}
+	.image-result {
+		max-width: 1000px;
+		gap: 5rem;
+	}
+	.image-result img {
+		height: 230px;
+		width: 260px;
+	}
+}
+
+@media (max-width: 1000px) {
+	.header {
+		max-width: 800px;
+		margin-bottom: 2rem;
+	}
+	.header h2 {
+		font-size: 2.5rem;
+	}
+	.header h2 span {
+		font-size: 4.8rem;
+	}
+
+	.account-icon {
+		font-size: 4.5rem;
+	}
+	.body {
+		max-width: 800px;
+	}
+	.body form {
+		gap: 3rem;
+		width: 90%;
+	}
+	input {
+		font-size: 17px;
+		padding: 7px 16px;
+		width: 60%;
+	}
+	button {
+		font-size: 17px;
+		padding: 7px 20px;
+		width: 20%;
+	}
+	.show_more_btn {
+		width: 90%;
+		font-size: 16px;
+		margin-bottom: 2rem;
+	}
+
+	p {
+		font-size: 1.6rem;
+	}
+	.image-result {
+		max-width: 800px;
+		gap: 4rem;
+	}
+	.image-result img {
+		height: 190px;
+		width: 200px;
+	}
+}
+@media (max-width: 800px) {
+	.header {
+		max-width: 700px;
+	}
+	.header h2 {
+		font-size: 2.2rem;
+	}
+	.header h2 span {
+		font-size: 4.4rem;
+	}
+	.account-icon {
+		font-size: 4.3rem;
+	}
+	.body {
+		max-width: 700px;
+	}
+	.body form {
+		gap: 5rem;
+		width: 90%;
+	}
+	input {
+		font-size: 16px;
+		padding: 8px 16px;
+		width: 60%;
+	}
+	button {
+		font-size: 16px;
+		padding: 7px 22px;
+		width: 20%;
+	}
+	.show_more_btn {
+		width: 90%;
+		margin-bottom: 2rem;
+	}
+
+	p {
+		font-size: 1.6rem;
+	}
+	.image-result {
+		max-width: 700px;
+		gap: 5rem;
+	}
+	.image-result img {
+		height: 220px;
+		width: 270px;
+	}
+}
+@media (max-width: 700px) {
+	.header {
+		max-width: 600px;
+		margin-bottom: 2rem;
+	}
+	.header h2 {
+		font-size: 2.1rem;
+	}
+	.header h2 span {
+		font-size: 4.1rem;
+	}
+	.account-icon {
+		font-size: 4.1rem;
+	}
+	.body {
+		max-width: 600px;
+	}
+	.body form {
+		gap: 5rem;
+		width: 80%;
+	}
+	input {
+		font-size: 15px;
+		padding: 6px 16px;
+		width: 60%;
+	}
+	button {
+		font-size: 15px;
+		padding: 7px 20px;
+		width: 20%;
+	}
+	.show_more_btn {
+		width: 110%;
+		margin-bottom: 2rem;
+	}
+
+	p {
+		font-size: 1.5rem;
+	}
+	.image-result {
+		max-width: 600px;
+		gap: 4.2rem;
+	}
+	.image-result img {
+		height: 200px;
+		width: 220px;
+	}
+}
+@media (max-width: 600px) {
+	.header {
+		max-width: 500px;
+		margin-bottom: 2rem;
+	}
+	.header h2 {
+		font-size: 2rem;
+	}
+	.header h2 span {
+		font-size: 4rem;
+	}
+	.account-icon {
+		font-size: 3.5rem;
+	}
+	.body {
+		max-width: 500px;
+	}
+	.body form {
+		gap: 5rem;
+		width: 80%;
+	}
+	input {
+		font-size: 15px;
+		padding: 5px 16px;
+		width: 60%;
+	}
+	button {
+		font-size: 15px;
+		padding: 5px 20px;
+		width: 20%;
+	}
+	.show_more_btn {
+		width: 120%;
+		margin-bottom: 2rem;
+	}
+
+	p {
+		font-size: 1.6rem;
+	}
+	.image-result {
+		max-width: 500px;
+		gap: 4rem;
+	}
+	.image-result img {
+		height: 200px;
+		width: 200px;
+	}
+}
+@media (max-width: 500px) {
+	.header {
+		max-width: 400px;
+		margin-bottom: 2rem;
+	}
+	.header h2 {
+		font-size: 1.9rem;
+	}
+	.header h2 span {
+		font-size: 3.9rem;
+	}
+	.account-icon {
+		font-size: 3.3rem;
+	}
+	.body {
+		max-width: 400px;
+	}
+	.body form {
+		gap: 3rem;
+		flex-direction: column;
+		align-items: center;
+	}
+	input {
+		font-size: 17px;
+		padding: 6px 16px;
+		width: 90%;
+	}
+	button {
+		font-size: 15px;
+		padding: 5px 20px;
+		width: 40%;
+	}
+	.show_more_btn {
+		width: 80%;
+		margin-bottom: 2rem;
+	}
+
+	p {
+		font-size: 1.5rem;
+	}
+	.image-result {
+		max-width: 400px;
+		gap: 4rem;
+	}
+	.image-result img {
+		height: 250px;
+		width: 300px;
+	}
+}
+@media (max-width: 400px) {
+	.header {
+		max-width: 300px;
+		margin-bottom: 2rem;
+	}
+	.header h2 {
+		font-size: 1.9rem;
+	}
+	.header h2 span {
+		font-size: 3.9rem;
+	}
+	.account-icon {
+		font-size: 3.4rem;
+	}
+	.body {
+		max-width: 300px;
+		flex-direction: column;
+	}
+	.body form {
+		gap: 2rem;
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+	}
+	input {
+		font-size: 15px;
+		padding: 5px 16px;
+		width: 85%;
+	}
+	button {
+		font-size: 13px;
+		padding: 5px 20px;
+		width: 40%;
+	}
+	.show_more_btn {
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+
+	p {
+		font-size: 1.4rem;
+	}
+	.image-result {
+		max-width: 300px;
+		gap: 4rem;
+	}
+	.image-result img {
+		height: 220px;
+		width: 260px;
+	}
+}
