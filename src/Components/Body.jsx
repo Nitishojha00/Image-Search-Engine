@@ -5,7 +5,7 @@ import SearchForm from "./SearchForm";
 
 const Body = () => {
 	//State Variables defined
-	const accessKey = "WCO1Nkc4C26M4kW-Oi6JOlTCYpPVQG1BTAkKrgN9tKM";
+	const accessKey = import.meta.env.VITE_UNSPLASH_KEY;
 	const [keyword, setKeyword] = useState(" ");
 	const [image, setImage] = useState([]);
 	const [loading, setLoading] = useState(false);
